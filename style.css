@@ -1,0 +1,543 @@
+/* NAV */
+
+
+.navbar-custom {
+  background-color: #f6eade; /* Choose your desired color */
+  padding: 5px 20px; /* Adjust padding for top/bottom to make the navbar narrower */
+  margin-bottom: 50px;
+}
+
+
+.nav-link {
+     background: #f6eade; /* Slightly darker shade on hover */
+ border-radius: 25px !important; 
+    border: 1px solid #35221c;
+    color: #35221c;
+    transition: all 0.3s ease;
+font-size: 1.2rem;
+ padding: 5px 15px;
+   
+}
+
+.nav-item {
+    margin-left: 40px; /* Adjust this value to control space between buttons */
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: #ff6f91;
+    color: #fdf4eb;
+   box-shadow: 4px 4px 10px 2px rgba(53, 34, 28, 0.6); /* Balanced 3D shadow */
+ font-size: 1.2rem;
+ font-size: 1.2rem;
+    border-radius: 25px;
+        transform: scale(1.05);
+   border: 1px solid #db607d;
+}
+
+
+nav ul.nav-pills{
+	padding: 5px;
+	  gap: 7px;
+}
+
+.nav-logo{
+  height: 100px;   
+  width: auto;   
+}
+
+.favicon {
+	width: 50px;
+	height: 20px;
+}
+
+/**TEXT STUFF*/
+h1, h2, h3, .neon-text, body {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+
+body {
+  background-color: #fdf4eb;
+  font-weight: 300;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif !important;
+
+}
+
+h2 {
+    color: #5d360d;
+    font-weight: 700; /* Bold */
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.pink {
+	color: #fdf4eb;
+}
+h3 {
+    color: #5d360d;
+    font-weight: 400; /* Thinner weight */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+.editornote {
+	color: #35221c;
+}
+
+
+.xoxo {
+	color: red;
+	font-style: italic;
+	margin-bottom: -2px;
+}
+
+
+
+
+h1 {
+color: #35221c; 
+	font-weight: 700 ;
+	font-size: 2.5rem;
+	
+}
+
+.neon-text {
+  font-size: 2.8rem;
+  color:#fdf4eb;
+
+  text-shadow:
+    0 0 6px #35221c,
+    0 0 10px #35221c,
+    0 0 14px #35221c,
+    0 0 18px #35221c;
+}
+
+
+
+.neon-text-home {
+ font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.8rem;
+  color:#fdf4eb;
+  text-shadow:
+    0 0 6px #35221c,
+    0 0 10px #35221c,
+    0 0 14px #35221c,
+    0 0 18px #35221c;
+    padding-top: 50px;
+
+}
+
+.quote {
+	text-align: center;
+	color: #ab1854;
+font-style: italic;
+	font-weight: 700;
+	font-size: 2rem;
+	padding: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+.icmnav {
+	font-size: 2rem;
+}
+
+
+.card-body {
+	font-size: 0.9rem;
+	color:#35221c ; 
+}
+
+figcaption {
+	font-size: 0.9rem;
+	color:#694016 !important;
+	text-align: center;
+	
+}
+
+.caption {
+	color: #694016;
+	text-align: center ;
+
+
+}
+
+.captionhead {
+	text-align: center;
+	font-weight: bold;
+color: #694016;
+}
+
+/** BUTTONS **/
+
+.custom-btn {
+	 padding: 12px 35px;
+	 font-size: 1.1rem;
+}
+
+.custom-btn-footer {
+	text-decoration: none;
+	    padding: 10px 30px;
+	    font-size: 1rem;
+}
+.custom-btn,.custom-btn-footer {
+    border-radius: 25px; /* More rounded for a modern look */
+    background-color: #ff6f91;
+   border: 1px solid #db607d;
+    color: #fdf4eb;
+    text-align: center;
+     /* Slightly smaller font for a sleek look */
+    width: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.custom-btn:hover, .custom-btn-footer:hover {
+    background: #f6eade; /* Slightly darker shade on hover */
+ border: 1px solid #35221c;
+    color: #35221c;
+    transform: scale(1.1);
+         
+
+    box-shadow: 4px 4px 10px 2px rgba(53, 34, 28, 0.6); /* Balanced 3D shadow */
+}
+
+.custom-btn:active {
+    transform: scale(0.98); /* Slight shrink effect */
+}
+
+.custom-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.custom-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.custom-btn:hover span {
+    padding-right: 25px;
+}
+
+.custom-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+/* IMAGES */
+
+
+
+
+img {
+	padding: 15px;
+}
+
+.img-fluid.hero {
+	margin-bottom: 25px;
+}
+
+
+
+.img-fluid.home {
+  width: 100%;
+  height: 700px; /* You can adjust this height */
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+
+
+.carousel-item {
+	transition: transform 1s ease-in-out;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 400px; /* Adjust this value to set a fixed height for all images */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+
+
+.container-fluid .row .col-md-4 .aerie {
+  width: 100%; /* Make images responsive */
+  height: 350px; /* Set fixed heigh
+t */
+  object-fit: cover; /* Ensure images fill the space while maintaining aspect ratio */
+
+}
+
+
+.container-fluid .row .col-md-4 .barbie {
+  width: 100%; /* Make images responsive */
+  height: 350px; /* Set fixed height */
+  object-fit: cover; /* Ensure images fill the space while maintaining aspect ratio */
+
+}
+.container-fluid .row .col-md-12 .barbie {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay-text {
+	 position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 111, 145, 1); /* Barbie pink with opacity */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+
+.hover-card:hover .overlay-text {
+  opacity: 1;
+}
+
+
+.hover-card img {
+	width:100%;
+	height: 400px;
+	object-fit: cover;     
+  border-radius: 5px;   
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-card {
+  position: relative; /* THIS is the key */
+ }
+
+
+
+.hover-card img:hover 
+{
+  transform: scale(1.05); /* Slight zoom effect when hovered */
+}
+
+
+.aerie-card,.barbie-card, .glossier-card {
+	border-radius:0px;
+	overflow: hidden;
+	border: none;
+	box-shadow: 0 2px 6px rgba(53, 34, 28, 1);
+	background-color: #faf8f5;
+	color:#35221c ;
+
+}
+.aerie-card img,
+.glossier-card img,
+.barbie-card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+
+.aerie-card:hover img,
+.glossier-card:hover img,
+.barbie-card:hover img {
+  transform: scale(1.05);
+}
+/*footer*/
+.footer,.footer-quote{
+    background-color: #f6eade; /* Soft pink background */
+    color: #35221c; /* Dark brown text */
+   
+}
+
+ .footer{
+margin-top: 50px;
+    padding: 30px;
+}
+.footer-quote {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.footer-logo{
+  height: 100px;   
+  width: auto;   
+}
+
+.footer-bold {
+font-size: 2rem;
+  color:#442709;
+font-weight: bold;
+  
+
+}
+.footer-links {
+  list-style: none;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+
+.footer-links a {
+  color:#442709; /* or whatever color you want */
+  text-decoration: none; /* optional: removes underline */
+
+}
+
+.footer-links a:hover {
+  color: #fdf4eb; /* optional: color when hovered */
+
+}
+
+
+.footer-link {
+  background: #f6eade;
+  border-radius: 25px;
+  border: 1px solid #35221c;
+  color: #442709;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  padding: 5px 10px; /* Use space, not comma */
+  display: inline-block;
+  margin: 5px; /* optional spacing between links */
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link.active {
+  background: #ff6f91;
+  color: #fdf4eb;
+  box-shadow: 4px 4px 10px 2px rgba(53, 34, 28, 0.6);
+  transform: scale(1.05);
+  border: 1px solid #db607d;
+}
+
+.fa {
+
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+padding: 23px;
+  font-size: 5rem;
+  color: #fdf4eb;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background:#db607d;
+}
+
+.fa-linkedin {
+  background: #db607d;
+}
+
+.fa-youtube {
+  background: #db607d;
+}
+
+.fa-instagram {
+  background: #db607d;
+}
+
+
+/* other */
+.aerielist,.barbielist
+{
+	list-style: none;
+	margin-left: -28px;
+}
+
+
+
+
+/*spacing */
+
+
+.row-rarev .ratio {
+  margin-bottom: 7rem; /* This pushes the next h3 down */
+}
+
+
+.row-barbie {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.pink-bg {
+  background-color: #dc2488;
+ color: #fdf4eb;
+ margin-bottom: 35px;
+ margin-top: 25px;
+
+}
+
+.row-glossier {
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+.row-rare {
+	margin-bottom: 20px;
+}
+.container-intro {
+	margin-bottom: 100px;
+}
+.row-aerie {
+
+	margin-top: 25px;
+}
+.row-rare {
+	margin-bottom: 25px;
+}
+.row-img {
+	margin-top: 150px;
+}
+
+.row-intro {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.row-note {
+	margin-bottom: 60px;
+	margin-top: 100px;
+}
